@@ -10,6 +10,7 @@
 
      <title>Beryllium Student Directory  Website</title>
     <link rel="icon" type="image/x-icon" href="../assets/favicon.jpeg">
+    <link rel="stylesheet" href="https://antonio062111.github.io/CS3_2NDQTRPORTFOLIO/public/stylesheet.css">
 
  <style>
     body {
@@ -38,8 +39,16 @@
       font-weight: bold;
     }
 
+    nav a:visited {
+    color: #ff7af8; 
+    }
+
     nav a:hover {
       text-decoration: underline;
+    }
+
+    nav a:active {
+      color: #a0c4ff; /* color when link is being clicked */
     }
 
     h2 {
@@ -97,12 +106,33 @@
       padding: 10px;
       margin-top: 30px;
     }
+    
+    .text {
+      text-align: center; 
+      padding: 0 40px; 
+      line-height: 1.4;
+    }
+
+    .introduction {
+      display: flex;
+      align-items: center;
+      padding: 40px 60px;
+      line-height: 1.6;
+      text-align: justify;
+    }
+
+    .image {
+        width: 350px;
+        border-radius: 12px;
+        border: 4px solid white;
+        box-shadow: 0 0 10px rgba(42, 36, 36, 0.2);
+    }
   </style>
 
 </head>
 <body>
   <header>
-    <h1>Welcome to Berylllium's Database</h1>
+    <h1>Welcome to Beryllium's Database</h1>
     <p>Discover different student autobiographies and get to know them better.</p>
   </header>
 
@@ -111,15 +141,17 @@
     <a href="https://carloseeyah.github.io/CS3_2NDQTRPORTFOLIO/public/2Q1GBerylliumSia.html">Introduction</a>
     <a href="https://leeeyah.github.io/CS3_2NDQRTPORTFOLIO/public/2Q1GBerylliumBeltran.html">About</a>
     <a href="https://antonio062111.github.io/CS3_2NDQTRPORTFOLIO/public/2Q1GBerylliumDelosReyes.html">Quick Facts</a>
-    <a href="2Q1GBeYatco.html">Student Directory</a>
+    <a href="2Q2GBerylliumYatco.html">Student Directory</a>
 </nav>
 
+<section class="introduction">
+<img src="../assets/classphoto.JPG" alt="Beryllium Class Photo" class="image">
+<div class="text">
   <h2>Meet the Students of 2029 Beryllium</h2>
-
-<section style="text-align: center; padding: 0 40px; line-height: 1.4;">
   <p>The 2029 Beryllium Student Directory serves as a digital yearbook that showcases the bright and talented students of our class. Each student has their own unique skills, passions, and stories that make Beryllium a fun and creative family. This directory will be a compilation of the memories we will build together throughout the school year.</p>
 
   <p>Here, you can explore the faces and short autobiographies of every member of our section. From our class leaders to our creatives, each profile reflects the aspects that define Beryllium. Take a moment to look through our gallery to get to know the people who make our class truly one of a kind.</p>
+</div>
 </section>
 
   <div class="grid">
@@ -223,7 +255,7 @@
 <h3 style="color:#a48b2e;">  Sophia Violet Castillo</h3>
     <p>Class Number: Be07</p>
     <p>Birthday: 10/10/2010</p>
-    <p>Gender and Pronouns: famale, she/her</p>
+    <p>Gender and Pronouns: female, she/her</p>
     <p>Likes: sweets, plushies, art, music, nature, the stars</p>
     <p>Dislikes: corruption, spicy food, condiments</p>
     <p>Favorite Artist and Song: fav song is probs to love by suki waterhouse n artist is provs illit or renee rapp</p>
@@ -462,7 +494,6 @@
 
     </div>
   </div>
-
 
   <h2 style="text-align:center;"> 2029 Beryllium Class Officers</h2>
 
